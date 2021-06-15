@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&display=swap");
 
 $senja: #f17e3a;
+$portofolio: #ffa874;
 
 // Body
 body {
@@ -9,6 +10,7 @@ body {
 
 // Navbar
 .customNav {
+  font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
   margin-bottom: 60px;
   color: white;
@@ -31,27 +33,81 @@ body {
 // Header
 .headerBox {
   margin-top: -200;
-  min-height: 100vh;
+  min-height: 98vh;
   background-image: url("../public/f12m.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
+    color: white;
     margin-left: 100px;
-    margin-top: 4em;
-    font-size: 4em;
+    margin-top: 3em;
+    font-size: 5em;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.19);
+    font-family: "Lobster", cursive;
 
     .stroke {
-      color: white;
+      color: $senja;
     }
   }
 }
 
+.custom-shape-divider-bottom-1623743413 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623743413 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 157px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1623743413 .shape-fill {
+  fill: #ffa874;
+}
+
+.custom-shape-divider-top-1623743509 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1623743509 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 157px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1623743509 .shape-fill {
+  fill: #ffa874;
+}
+
 // Portofolio
 .portofolioBox {
+  margin-top: -60px;
+  background: $portofolio;
   display: flex;
-  margin-top: 50px;
-  justify-content: center;
-  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .card {
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 // Footer
