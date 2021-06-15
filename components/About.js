@@ -4,7 +4,9 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col">  
-                        
+                        <h1>
+                            Test
+                        </h1>
                     </div>
                 </div>
             </div>
