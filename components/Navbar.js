@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg customNav fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="#">
-          Navbar
+          <span className="senja">Senja</span> Solusi
         </a>
         <button
           class="navbar-toggler"
@@ -17,7 +17,7 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
                 Home
@@ -31,16 +31,6 @@ const Navbar = () => {
             <li class="nav-item">
               <a class="nav-link" href="#">
                 Pricing
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              >
-                Disabled
               </a>
             </li>
           </ul>
