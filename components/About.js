@@ -52,12 +52,69 @@ const About = () => {
 				</div>
 				<div className="row">
 					<div className="col aboutCol">
-						<h1>What We Do</h1>
+						<h1 data-aos="fade-up">What We Do</h1>
 					</div>
 					<div className="col">
-						<div className="row">
-							<b>Front End Development</b>
+						<b>Front End Development</b>
+						<div className="col">
+							<p>
+								Lomo dreamcatcher bushwick gastropub swag. Hammock sriracha
+								paleo, iPhone swag af flexitarian hella pickled neutra pug.
+								Trust fund chicharrones iPhone stumptown chia. Godard 3 wolf
+								moon tacos try-hard. Shoreditch cliche marfa godard gochujang
+								kinfolk hoodie you probably haven't heard of them echo park DIY
+								tilde PBR&B.
+							</p>
 						</div>
+						<hr data-aos="fade-right" />
+						<b>Front End Development</b>
+						<div className="col">
+							<p>
+								Lomo dreamcatcher bushwick gastropub swag. Hammock sriracha
+								paleo, iPhone swag af flexitarian hella pickled neutra pug.
+								Trust fund chicharrones iPhone stumptown chia. Godard 3 wolf
+								moon tacos try-hard. Shoreditch cliche marfa godard gochujang
+								kinfolk hoodie you probably haven't heard of them echo park DIY
+								tilde PBR&B.
+							</p>
+						</div>
+						<hr data-aos="fade-right" />
+						<b>Front End Development</b>
+						<div className="col">
+							<p>
+								Lomo dreamcatcher bushwick gastropub swag. Hammock sriracha
+								paleo, iPhone swag af flexitarian hella pickled neutra pug.
+								Trust fund chicharrones iPhone stumptown chia. Godard 3 wolf
+								moon tacos try-hard. Shoreditch cliche marfa godard gochujang
+								kinfolk hoodie you probably haven't heard of them echo park DIY
+								tilde PBR&B.
+							</p>
+						</div>
+						<hr data-aos="fade-right" />
+						<b>Front End Development</b>
+						<div className="col">
+							<p>
+								Lomo dreamcatcher bushwick gastropub swag. Hammock sriracha
+								paleo, iPhone swag af flexitarian hella pickled neutra pug.
+								Trust fund chicharrones iPhone stumptown chia. Godard 3 wolf
+								moon tacos try-hard. Shoreditch cliche marfa godard gochujang
+								kinfolk hoodie you probably haven't heard of them echo park DIY
+								tilde PBR&B.
+							</p>
+						</div>
+						<hr data-aos="fade-right" />
+						<b>Front End Development</b>
+						<div className="col">
+							<p>
+								Lomo dreamcatcher bushwick gastropub swag. Hammock sriracha
+								paleo, iPhone swag af flexitarian hella pickled neutra pug.
+								Trust fund chicharrones iPhone stumptown chia. Godard 3 wolf
+								moon tacos try-hard. Shoreditch cliche marfa godard gochujang
+								kinfolk hoodie you probably haven't heard of them echo park DIY
+								tilde PBR&B.
+							</p>
+						</div>
+						<hr data-aos="fade-right" />
 					</div>
 				</div>
 			</div>
