@@ -45,55 +45,7 @@ body {
   color: #f17e3a;
 }
 
-.custom-shape-divider-bottom-1623743413 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1623743413 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 157px;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1623743413 .shape-fill {
-  fill: #ffa874;
-}
-
-.custom-shape-divider-top-1623743509 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1623743509 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 157px;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1623743509 .shape-fill {
-  fill: #ffa874;
-}
-
 .portofolioBox {
-  margin-top: -60px;
-  background: #ffa874;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,8 +60,14 @@ body {
 
 .portofolioBox .card {
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 200px;
   margin-bottom: 60px;
+}
+
+.aboutRoot {
+  padding: 50px;
+  background: #444;
+  color: #fff;
 }
 
 footer {
