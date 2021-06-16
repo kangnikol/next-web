@@ -30,11 +30,11 @@ const About = () => {
 							<div className="col">
 								<p>Strategy</p>
 								<ul class="list-group">
-									<li className="">An item</li>
-									<li className="">A second item</li>
-									<li className="">A third item</li>
-									<li className="">A fourth item</li>
-									<li className="">And a fifth one</li>
+									<li className="">Digital Strategy</li>
+									<li className="">Content Strategy</li>
+									<li className="">Responsive Development</li>
+									<li className="">Web Design</li>
+									<li className="">Motion Design</li>
 								</ul>
 							</div>
 							<div className="col">
