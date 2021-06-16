@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/main.css";
 import Layout from "../components/Layout";
-import "../js/cursor";
+// import "../js/cursor";
 
 function MyApp({ Component, pageProps }) {
   return (
