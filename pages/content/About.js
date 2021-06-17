@@ -162,7 +162,7 @@ const About = () => {
                       neutra pug. Trust fund chicharrones iPhone stumptown chia.
                       Godard 3 wolf moon tacos try-hard. Shoreditch cliche marfa
                       godard gochujang kinfolk hoodie you probably haven't heard
-                      of them echo park DIY tilde PBR&B.
+                      of them echo park DY tilde PBR&B.
                     </p>
                   </ul>
                 </div>
@@ -205,59 +205,66 @@ const About = () => {
           </div>
           <div className="col">
             <div className="row ourSkill">
-              <div className="col aStroke">+45</div>
-              <div className="col">
-                <p>Awwards</p>
-              </div>
-              <div className="col">
-                <ul class="list-group">
-                  <li className="">Digital Strategy</li>
-                  <li className="">Content Strategy</li>
-                  <li className="">Responsive development</li>
-                </ul>
-              </div>
-            </div>
-            {/* End */}
-            <div className="row ourSkill2">
-              <div className="col aStroke">+532</div>
-              <div className="col">
-                <p>Projects</p>
-              </div>
-              <div className="col">
-                <ul class="list-group">
-                  <li className="">Digital Strategy</li>
-                  <li className="">Content Strategy</li>
-                  <li className="">Responsive development</li>
-                </ul>
+              <div className="plsTengah">
+                <div className="col aStroke">+45</div>
+                <div className="col">
+                  <p>Awwards</p>
+                </div>
+                <div className="col">
+                  <ul class="list-group">
+                    <li className="">Digital Strategy</li>
+                    <li className="">Content Strategy</li>
+                    <li className="">Responsive development</li>
+                  </ul>
+                </div>
               </div>
             </div>
             {/* End */}
             <div className="row ourSkill2">
-              <div className="col aStroke">100%</div>
-              <div className="col">
-                <p>Requirement</p>
-              </div>
-              <div className="col">
-                <ul class="list-group">
-                  <li className="">Digital Strategy</li>
-                  <li className="">Content Strategy</li>
-                  <li className="">Responsive development</li>
-                </ul>
+              <div className="plsTengah">
+                <div className="col aStroke">+532</div>
+                <div className="col">
+                  <p>Projects</p>
+                </div>
+                <div className="col">
+                  <ul class="list-group">
+                    <li className="">Digital Strategy</li>
+                    <li className="">Content Strategy</li>
+                    <li className="">Responsive development</li>
+                  </ul>
+                </div>
               </div>
             </div>
             {/* End */}
             <div className="row ourSkill2">
-              <hr />
-              <div className="col aStroke">265</div>
-              <div className="col">
-                <p>Clients</p>
+              <div className="plsTengah">
+                <div className="col aStroke">100%</div>
+                <div className="col">
+                  <p>Requirement</p>
+                </div>
+                <div className="col">
+                  <ul class="list-group">
+                    <li className="">Digital Strategy</li>
+                    <li className="">Content Strategy</li>
+                    <li className="">Responsive development</li>
+                  </ul>
+                </div>
               </div>
-              <div className="col">
-                <ul class="list-group">
-                  <li className="">Digital Strategy</li>
-                  <li className="">Content Strategy</li>
-                  <li className="">Responsive development</li>
-                </ul>
+            </div>
+            {/* End */}
+            <div className="row ourSkill2">
+              <div className="plsTengah">
+                <div className="col aStroke">265</div>
+                <div className="col">
+                  <p>Clients</p>
+                </div>
+                <div className="col">
+                  <ul class="list-group">
+                    <li className="">Digital Strategy</li>
+                    <li className="">Content Strategy</li>
+                    <li className="">Responsive development</li>
+                  </ul>
+                </div>
               </div>
             </div>
             {/* End */}
