@@ -29,21 +29,25 @@ const About = () => {
               <div className="col cCols">
                 <p>Strategy</p>
                 <ul class="list-group">
-                  <li className="">An item</li>
-                  <li className="">A second item</li>
-                  <li className="">A third item</li>
-                  <li className="">A fourth item</li>
-                  <li className="">And a fifth one</li>
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                  <li className="">Web Design</li>
+                  <li className="">Motion Design</li>
+                  <li className="">Data Analyst</li>
+                  <li className="">Brand Experience</li>
                 </ul>
               </div>
               <div className="col cCols">
-                <p>Strategy</p>
+                <p>Development</p>
                 <ul class="list-group">
-                  <li className="">An item</li>
-                  <li className="">A second item</li>
-                  <li className="">A third item</li>
-                  <li className="">A fourth item</li>
-                  <li className="">And a fifth one</li>
+                  <li className="">Design Direction</li>
+                  <li className="">Web & Mobile UI</li>
+                  <li className="">Creative Concepts & Ideas</li>
+                  <li className="">User Experience Design</li>
+                  <li className="">Branding & Identity</li>
+                  <li className="">Websites & Web Applications</li>
+                  <li className="">E-Commerce</li>
                 </ul>
               </div>
             </div>
@@ -68,7 +72,7 @@ const About = () => {
               </p>
             </div>
             <hr data-aos="fade-right" />
-            <b>Front End Development</b>
+            <b>Back End Development</b>
             <div className="col">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem,
@@ -81,7 +85,7 @@ const About = () => {
               </p>
             </div>
             <hr data-aos="fade-right" />
-            <b>Front End Development</b>
+            <b>User Experience Design</b>
             <div className="col">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -93,7 +97,7 @@ const About = () => {
               </p>
             </div>
             <hr data-aos="fade-right" />
-            <b>Front End Development</b>
+            <b>User Interface Design</b>
             <div className="col">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
@@ -106,7 +110,7 @@ const About = () => {
               </p>
             </div>
             <hr data-aos="fade-right" />
-            <b>Front End Development</b>
+            <b>Motion Design</b>
             <div className="col">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
@@ -121,11 +125,11 @@ const About = () => {
             <hr data-aos="fade-right" />
           </div>
         </div>
-        <div className="row">
+        <div className="row cRows">
           <div className="col">
-            <h1>Who Are We</h1>
+            <h1>Work Process</h1>
           </div>
-          <div className="col" data-aos="fade-down">
+          <div className="col">
             <div className="row" data-aos="fade-left">
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -137,29 +141,129 @@ const About = () => {
               </p>
               <div className="row" data-aos="fade-left">
                 <div className="col">
-                  <p>Strategy</p>
                   <ul class="list-group">
-                    <li className="">An item</li>
-                    <li className="">A second item</li>
-                    <li className="">A third item</li>
-                    <li className="">A fourth item</li>
-                    <li className="">And a fifth one</li>
+                    <b>Brainstoriming</b>
+                    <p>
+                      Lomo dreamcatcher bushwick gastropub swag. Hammock
+                      sriracha paleo, iPhone swag af flexitarian hella pickled
+                      neutra pug. Trust fund chicharrones iPhone stumptown chia.
+                      Godard 3 wolf moon tacos try-hard. Shoreditch cliche marfa
+                      godard gochujang kinfolk hoodie you probably haven't heard
+                      of them echo park DIY tilde PBR&B.
+                    </p>
                   </ul>
                 </div>
                 <div className="col">
-                  <p>Strategy</p>
                   <ul class="list-group">
-                    <li className="">An item</li>
-                    <li className="">A second item</li>
-                    <li className="">A third item</li>
-                    <li className="">A fourth item</li>
-                    <li className="">And a fifth one</li>
+                    <b>Brainstoriming</b>
+                    <p>
+                      Lomo dreamcatcher bushwick gastropub swag. Hammock
+                      sriracha paleo, iPhone swag af flexitarian hella pickled
+                      neutra pug. Trust fund chicharrones iPhone stumptown chia.
+                      Godard 3 wolf moon tacos try-hard. Shoreditch cliche marfa
+                      godard gochujang kinfolk hoodie you probably haven't heard
+                      of them echo park DIY tilde PBR&B.
+                    </p>
+                  </ul>
+                </div>
+              </div>
+              <div className="row" data-aos="fade-left">
+                <div className="col">
+                  <ul class="list-group">
+                    <b>Brainstoriming</b>
+                    <p>
+                      Lomo dreamcatcher bushwick gastropub swag. Hammock
+                      sriracha paleo, iPhone swag af flexitarian hella pickled
+                      neutra pug. Trust fund chicharrones iPhone stumptown chia.
+                      Godard 3 wolf moon tacos try-hard. Shoreditch cliche marfa
+                      godard gochujang kinfolk hoodie you probably haven't heard
+                      of them echo park DIY tilde PBR&B.
+                    </p>
+                  </ul>
+                </div>
+                <div className="col">
+                  <ul class="list-group">
+                    <b>Brainstoriming</b>
+                    <p>
+                      Lomo dreamcatcher bushwick gastropub swag. Hammock
+                      sriracha paleo, iPhone swag af flexitarian hella pickled
+                      neutra pug. Trust fund chicharrones iPhone stumptown chia.
+                      Godard 3 wolf moon tacos try-hard. Shoreditch cliche marfa
+                      godard gochujang kinfolk hoodie you probably haven't heard
+                      of them echo park DIY tilde PBR&B.
+                    </p>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* End */}
+        <div className="row cRows">
+          <div className="col">
+            <h1>Our Skills</h1>
+          </div>
+          <div className="col">
+            <div className="row ourSkill">
+              <div className="col aStroke">+45</div>
+              <div className="col">
+                <p>Awwards</p>
+              </div>
+              <div className="col">
+                <ul class="list-group">
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                </ul>
+              </div>
+            </div>
+            {/* End */}
+            <div className="row ourSkill2">
+              <div className="col aStroke">+532</div>
+              <div className="col">
+                <p>Projects</p>
+              </div>
+              <div className="col">
+                <ul class="list-group">
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                </ul>
+              </div>
+            </div>
+            {/* End */}
+            <div className="row ourSkill2">
+              <div className="col aStroke">100%</div>
+              <div className="col">
+                <p>Requirement</p>
+              </div>
+              <div className="col">
+                <ul class="list-group">
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                </ul>
+              </div>
+            </div>
+            {/* End */}
+            <div className="row ourSkill2">
+              <hr />
+              <div className="col aStroke">265</div>
+              <div className="col">
+                <p>Clients</p>
+              </div>
+              <div className="col">
+                <ul class="list-group">
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                </ul>
+              </div>
+            </div>
+            {/* End */}
+          </div>
+        </div>
+        {/* End */}
       </div>
     </div>
   );
