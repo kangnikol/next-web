@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/main.css";
 import Layout from "../components/Layout";
 import "swiper/swiper.min.css";
+import "../css/gaya.css"
 // import "../js/cursor";
 
 function MyApp({ Component, pageProps }) {
