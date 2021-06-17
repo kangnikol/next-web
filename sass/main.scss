@@ -294,8 +294,70 @@ body {
 
 // Footer
 footer {
-  .four-columns {
-    box-sizing: border-box;
-    flex-basis: 41.66%;
+  padding: 4em;
+  background: black;
+  color: white;
+
+  li {
+    list-style-type: none;
+  }
+
+  h5 {
+    margin-bottom: 1.5em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.2;
+  }
+
+  .contact {
+    margin-top: -1.5em;
+    a {
+      color: white;
+      text-decoration: none;
+      opacity: 0.6;
+      font-family: "Lato", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      line-height: 1.2;
+    }
+  }
+
+  .fRows {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+
+    h4 {
+      text-transform: uppercase;
+      font-size: 3em;
+    }
+  }
+
+  .fRows2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .fRows3 {
+    display: flex;
+    justify-content: center;
+
+    li {
+      display: inline;
+      margin-right: 3em;
+    }
+  }
+
+  h4 {
+    font-size: 4em;
   }
 }
