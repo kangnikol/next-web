@@ -4,6 +4,9 @@
 $senja: #f17e3a;
 $portofolio: #ffa874;
 
+html {
+  scroll-behavior: smooth;
+}
 // Body
 body {
   font-family: "Lato", sans-serif;
@@ -19,9 +22,15 @@ body {
 
   .nav-link {
     color: white;
+    margin-left: 1em;
+  }
+
+  .nav-link:hover {
+    color: $senja;
   }
 
   .navbar-brand {
+    margin-left: 10px;
     font-family: "Lobster", cursive;
     font-size: 2em;
     color: white;
@@ -49,8 +58,8 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: black;
-    opacity: 0.6;
+    background-image: linear-gradient(to right, #000, #000);
+    opacity: 0.5;
   }
 
   h1 {
@@ -129,28 +138,30 @@ body {
 .portofolioBox {
   // margin-top: 1px;
   color: white;
-  background: black;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  background: rgb(44, 44, 44);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-wrap: wrap;
 
   .r-text {
-    display: flex;
-    text-align: end;
-    justify-content: center;
+    // display: flex;
+    text-align: center;
+    // justify-content: center;
 
     .title {
       letter-spacing: 3px;
       font-weight: 900;
       line-height: 1;
       z-index: 2;
-      display: inline-block;
+      display: block;
       text-transform: uppercase;
       color: transparent;
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: #fff;
-      margin-right: -30%;
+      // margin-right: -30%;
+      margin-bottom: 60px;
+      margin-top: 60px;
       span {
         position: relative;
         right: 0;
@@ -161,7 +172,10 @@ body {
   }
 
   .card {
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-left: 5em;
     // margin-top: 200px;
     margin-bottom: 60px;
     color: black;
@@ -169,15 +183,86 @@ body {
 }
 
 // About
-.aboutRoot {
+.aboutBox {
   padding: 50px;
-  background: #444;
+  background: black;
   color: #fff;
+
+  .list-group {
+    margin-left: 1em;
+  }
+
+  .cCols {
+    padding-bottom: 2em;
+  }
+
+  .cRows {
+    padding-bottom: 5em;
+  }
+
+  .headline-xxs {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
   // margin-top: 50px;
 }
 // Footer
 footer {
-  text-align: center;
-  margin-top: 60px;
-  font-size: 1em;
+  .footer-nav-btn {
+    opacity: 0.6;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
+  }
+
+  .footer-nav-btn:hover {
+    opacity: 1;
+  }
+
+  .copyright {
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .copyright .copyright__author {
+    font-weight: 700;
+  }
+
+  .next-project-footer {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  /* main content overlay fix */
+  .main-content {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .has-scroll-smooth .main-content {
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .has-scroll-smooth .page-head-footer-overlay-fix,
+  .has-scroll-smooth .page-head-footer-overlay-fix * {
+    pointer-events: none !important;
+  }
+
+  .has-scroll-smooth .page-head-footer-overlay-fix.is-inview,
+  .has-scroll-smooth .page-head-footer-overlay-fix.is-inview * {
+    pointer-events: auto !important;
+  }
 }

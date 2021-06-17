@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg customNav fixed-top">
+      <a class="navbar-brand" href="#">
+        <span className="senja">Senja</span> Solusi
+      </a>
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <span className="senja">Senja</span> Solusi
-        </a>
         <button
           class="navbar-toggler"
           type="button"

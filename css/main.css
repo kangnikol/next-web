@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&family=Work+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -14,9 +18,15 @@ body {
 
 .customNav .nav-link {
   color: white;
+  margin-left: 1em;
+}
+
+.customNav .nav-link:hover {
+  color: #f17e3a;
 }
 
 .customNav .navbar-brand {
+  margin-left: 10px;
   font-family: "Lobster", cursive;
   font-size: 2em;
   color: white;
@@ -43,8 +53,9 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: black;
-  opacity: 0.6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+  background-image: linear-gradient(to right, #000, #000);
+  opacity: 0.5;
 }
 
 .headerBox h1 {
@@ -126,27 +137,11 @@ body {
 
 .portofolioBox {
   color: white;
-  background: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background: #2c2c2c;
 }
 
 .portofolioBox .r-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 .portofolioBox .r-text .title {
@@ -154,12 +149,13 @@ body {
   font-weight: 900;
   line-height: 1;
   z-index: 2;
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: #fff;
-  margin-right: -30%;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .portofolioBox .r-text .title span {
@@ -170,20 +166,101 @@ body {
 }
 
 .portofolioBox .card {
-  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 60px;
   color: black;
 }
 
-.aboutRoot {
+.aboutBox {
   padding: 50px;
-  background: #444;
+  background: black;
   color: #fff;
 }
 
+.aboutBox .list-group {
+  margin-left: 1em;
+}
+
+.aboutBox .cCols {
+  padding-bottom: 2em;
+}
+
+.aboutBox .cRows {
+  padding-bottom: 5em;
+}
+
+.aboutBox .headline-xxs {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 footer {
-  text-align: center;
-  margin-top: 60px;
-  font-size: 1em;
+  /* main content overlay fix */
+}
+
+footer .footer-nav-btn {
+  opacity: 0.6;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 1.2;
+  -webkit-transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
+  transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
+}
+
+footer .footer-nav-btn:hover {
+  opacity: 1;
+}
+
+footer .copyright {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+footer .copyright .copyright__author {
+  font-weight: 700;
+}
+
+footer .next-project-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+footer .main-content {
+  overflow: hidden;
+  position: relative;
+}
+
+footer .has-scroll-smooth .main-content {
+  z-index: 2;
+  pointer-events: none;
+}
+
+footer .has-scroll-smooth .page-head-footer-overlay-fix,
+footer .has-scroll-smooth .page-head-footer-overlay-fix * {
+  pointer-events: none !important;
+}
+
+footer .has-scroll-smooth .page-head-footer-overlay-fix.is-inview,
+footer .has-scroll-smooth .page-head-footer-overlay-fix.is-inview * {
+  pointer-events: auto !important;
 }
 /*# sourceMappingURL=main.css.map */
