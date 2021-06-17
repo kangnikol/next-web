@@ -45,7 +45,7 @@ body {
 // Header
 .headerBox {
   margin-top: -200;
-  min-height: 98vh;
+  min-height: 98.5vh;
   background-color: rgba($color: #000000, $alpha: 0.7);
   background-image: url("../public/f12m.jpg");
   background-size: cover;
@@ -67,7 +67,7 @@ body {
     z-index: 10;
     color: white;
     margin-left: 4em;
-    margin-top: 5em;
+    margin-top: 4.5em;
     font-size: 5em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -138,10 +138,10 @@ body {
 .portofolioBox {
   // margin-top: 1px;
   color: white;
-  background: rgb(44, 44, 44);
+  background: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 
@@ -159,7 +159,7 @@ body {
       text-transform: uppercase;
       color: transparent;
       -webkit-text-stroke: 1px;
-      -webkit-text-stroke-color: #fff;
+      -webkit-text-stroke-color: black;
       // margin-right: -30%;
       margin-bottom: 60px;
       margin-top: 60px;
@@ -174,8 +174,8 @@ body {
 
   .card {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin-left: 3em;
     margin-bottom: 70px;
     color: black;
   }
@@ -183,7 +183,7 @@ body {
 
 // About
 .aboutBox {
-  padding: 50px;
+  padding: 6em;
   background: black;
   color: #fff;
 
@@ -209,59 +209,8 @@ body {
 }
 // Footer
 footer {
-  .footer-nav-btn {
-    opacity: 0.6;
-    font-family: "Lato", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    line-height: 1.2;
-    transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
-  }
-
-  .footer-nav-btn:hover {
-    opacity: 1;
-  }
-
-  .copyright {
-    font-family: "Lato", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    letter-spacing: 5px;
-    line-height: 1.4;
-    text-transform: uppercase;
-  }
-
-  .copyright .copyright__author {
-    font-weight: 700;
-  }
-
-  .next-project-footer {
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-
-  /* main content overlay fix */
-  .main-content {
-    overflow: hidden;
-    position: relative;
-  }
-
-  .has-scroll-smooth .main-content {
-    z-index: 2;
-    pointer-events: none;
-  }
-
-  .has-scroll-smooth .page-head-footer-overlay-fix,
-  .has-scroll-smooth .page-head-footer-overlay-fix * {
-    pointer-events: none !important;
-  }
-
-  .has-scroll-smooth .page-head-footer-overlay-fix.is-inview,
-  .has-scroll-smooth .page-head-footer-overlay-fix.is-inview * {
-    pointer-events: auto !important;
+  .four-columns {
+    box-sizing: border-box;
+    flex-basis: 41.66%;
   }
 }

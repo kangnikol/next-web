@@ -3,14 +3,9 @@ const Footer = () => {
     <div>
       <footer class="section-bg-dark" data-scroll-section>
         {/* <!-- container start --> */}
-        <div
-          class="container padding-top-bottom-30"
-          data-scroll
-          data-scroll-speed="-4"
-          data-scroll-position="bottom"
-        >
+        <div class="container">
           {/* <!-- flex-container start --> */}
-          <div class="flex-container flex-align-center">
+          <div class="container flex-align-center">
             {/* <!-- column start --> */}
             <div class="eight-columns padding-top-90">
               <h4 class="column-l-r-margin-10 headline-s headline-uppercase">

@@ -39,7 +39,7 @@ body {
 
 .headerBox {
   margin-top: -200;
-  min-height: 98vh;
+  min-height: 98.5vh;
   background-color: rgba(0, 0, 0, 0.7);
   background-image: url("../public/f12m.jpg");
   background-size: cover;
@@ -63,7 +63,7 @@ body {
   z-index: 10;
   color: white;
   margin-left: 4em;
-  margin-top: 5em;
+  margin-top: 4.5em;
   font-size: 5em;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -137,7 +137,7 @@ body {
 
 .portofolioBox {
   color: white;
-  background: #2c2c2c;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,9 +145,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -168,7 +168,7 @@ body {
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: black;
   margin-bottom: 60px;
   margin-top: 60px;
 }
@@ -184,17 +184,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 3em;
   margin-bottom: 70px;
   color: black;
 }
 
 .aboutBox {
-  padding: 50px;
+  padding: 6em;
   background: black;
   color: #fff;
 }
@@ -218,63 +217,10 @@ body {
   line-height: 1.2;
 }
 
-footer {
-  /* main content overlay fix */
-}
-
-footer .footer-nav-btn {
-  opacity: 0.6;
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 4px;
-  line-height: 1.2;
-  -webkit-transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
-  transition: 0.5s cubic-bezier(0.225, 1, 0.316, 0.99);
-}
-
-footer .footer-nav-btn:hover {
-  opacity: 1;
-}
-
-footer .copyright {
-  font-family: "Lato", sans-serif;
-  font-size: 10px;
-  font-weight: 300;
-  letter-spacing: 5px;
-  line-height: 1.4;
-  text-transform: uppercase;
-}
-
-footer .copyright .copyright__author {
-  font-weight: 700;
-}
-
-footer .next-project-footer {
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-footer .main-content {
-  overflow: hidden;
-  position: relative;
-}
-
-footer .has-scroll-smooth .main-content {
-  z-index: 2;
-  pointer-events: none;
-}
-
-footer .has-scroll-smooth .page-head-footer-overlay-fix,
-footer .has-scroll-smooth .page-head-footer-overlay-fix * {
-  pointer-events: none !important;
-}
-
-footer .has-scroll-smooth .page-head-footer-overlay-fix.is-inview,
-footer .has-scroll-smooth .page-head-footer-overlay-fix.is-inview * {
-  pointer-events: auto !important;
+footer .four-columns {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 41.66%;
+      flex-basis: 41.66%;
 }
 /*# sourceMappingURL=main.css.map */
