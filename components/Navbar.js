@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg customNav fixed-top">
+    <nav class="navbar navbar-inverse navbar-expand-lg customNav fixed-top">
       <a class="navbar-brand" href="#">
         <span className="senja">Senja</span> Solusi
       </a>
@@ -24,13 +24,13 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portofolio">
-                Portofolio
+              <a class="nav-link" href="#about">
+                About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
+              <a class="nav-link" href="#contact">
+                Contact
               </a>
             </li>
           </ul>

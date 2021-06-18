@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "./content/Header";
-import Portofolio from "./content/Portofolio";
+import Hiring from "./content/Hiring";
 import About from "./content/About";
 import Carouesell from "./content/Carousell";
 import Team from "./content/Team";
@@ -15,11 +15,9 @@ export default function Home() {
       <Script async src="../js/cursor.js" />
       {/* Header */}
       <Header />
-      {/* Portofolio */}
-      <Portofolio />
-      {/* About */}
+      <Hiring />
       <About />
-      <Carouesell />
+      {/* <Carouesell /> */}
       <Team />
       <Marquee />
     </div>

@@ -9,11 +9,9 @@ const Footer = () => {
             {/* <!-- column start --> */}
             <div class="row fRows">
               <h4 class="col-10">
-                The Best
+                REACH OUT
                 <br />
-                Agency for
-                <br />
-                Your Businnes
+                TO US TODAY
               </h4>
               {/* <!-- column end --> */}
 
@@ -21,7 +19,7 @@ const Footer = () => {
               <div class="col">
                 <li class="list__item">
                   <a
-                    href="index.html"
+                    href="#"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     Home
@@ -29,39 +27,16 @@ const Footer = () => {
                 </li>
                 <li class="list__item">
                   <a
-                    href="about.html"
+                    href="#about"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     About
                   </a>
                 </li>
+
                 <li class="list__item">
                   <a
-                    href="services.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="portfolio_fullscreen.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Portfolio
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="blog.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="contact.html"
+                    href="#contact"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     Contact
@@ -75,114 +50,70 @@ const Footer = () => {
 
           {/* <!-- flex-container start --> */}
           {/* <!-- column start --> */}
-          <div class="row fRows2">
-            <div class="col">
-              <h5>Email:</h5>
-              <p className="contact">
-                <a href="#" class="email">
-                  email@tumar_agency.com
-                </a>
-              </p>
-              <p className="contact">
-                <a href="#" className="email">
-                  email@tumar_job.com
-                </a>
-              </p>
-            </div>
-            {/* <!-- column end --> */}
+          <section id="contact">
+            <div class="row fRows2">
+              <div class="col">
+                <h5>Email:</h5>
+                <p className="contact">
+                  <a href="mailto:info@senja.co.uk" class="email">
+                    info@senja.co.uk
+                  </a>
+                </p>
+              </div>
+              {/* <!-- column end --> */}
 
-            {/* <!-- column start --> */}
-            <div class="col">
-              <h5>Phone:</h5>
-              <p className="contact">
-                <a href="#">+23 8 8532 7834</a>
-              </p>
-              <p className="contact">
-                <a href="#">+23 8 9635 7335</a>
-              </p>
-            </div>
-            {/* <!-- column end --> */}
+              {/* <!-- column start --> */}
+              <div class="col">
+                <h5>Phone:</h5>
+                <p className="contact">
+                  <div className="phone">
+                    <a href="tel://+6281224464422">+6281224464422</a>
+                  </div>
+                </p>
+              </div>
+              {/* <!-- column end --> */}
 
-            {/* <!-- column start --> */}
+              {/* <!-- column start --> */}
+              <div className="fRows3">
+                <div class="row">
+                  <div class="col">
+                    {/* <!-- footer-social start --> */}
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/senjasolutions/">
+                          Facebook
+                        </a>
+                      </li>
+                      <li class="list__item">
+                        <a href="https://www.instagram.com/senjasolusi/">
+                          Instagram
+                        </a>
+                      </li>
+                    </ul>
+                    {/* <!-- footer-social end --> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <!-- column end --> */}
+
+          {/* <!-- column start --> */}
+          <div class="row cr">
             <div class="col">
-              <h5>Address:</h5>
-              <p className="contact">
-                <a href="#">
-                  PO Box 223158 Oliver Street East Victoria 2006 UK
-                </a>
-              </p>
+              <p class="text-center">&copy; Copyright 2021 Senja Solutions.</p>
+              {/* <!-- to top btn start --> */}
+              <a>
+                <span class="scroll-to-btn__arrow"></span>{" "}
+              </a>
+              {/* <!-- to top btn end --> */}
             </div>
           </div>
           {/* <!-- column end --> */}
 
-          {/* <!-- column start --> */}
-          <div class="row fRows3">
-            <div class="col">
-              {/* <!-- footer-social start --> */}
-              <ul class="list list_row list_margin-30px">
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Facebook
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Dribbble
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Instagram
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Youtube
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Behance
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a href="#" class="flip-btn js-pointer-small" data-splitting>
-                    Twitter
-                  </a>
-                </li>
-              </ul>
-              {/* <!-- footer-social end --> */}
-            </div>
-          </div>
+          {/* <!-- flex-container end --> */}
+          {/* </div> */}
         </div>
-        {/* <!-- column end --> */}
-
-        {/* <!-- column start --> */}
-        <div class="twelve-columns padding-top-120">
-          <div class="column-l-r-margin-10 pos-rel">
-            <p class="copyright margin-right-30">
-              &copy; Copyright 2020 TUMAR. Template by
-              <a href="#" class="copyright__author js-pointer-small">
-                Jinna Gik
-              </a>
-            </p>
-            {/* <!-- to top btn start --> */}
-            <a
-              href="#up"
-              class="scroll-to-btn js-pointer-large"
-              data-scroll
-              data-scroll-repeat
-              data-scroll-to
-            >
-              <span class="scroll-to-btn__arrow"></span>{" "}
-            </a>
-            {/* <!-- to top btn end --> */}
-          </div>
-        </div>
-        {/* <!-- column end --> */}
-
-        {/* <!-- flex-container end --> */}
-        {/* </div> */}
         {/* <!-- container end --> */}
       </footer>
       {/* <!-- footer end --> */}
