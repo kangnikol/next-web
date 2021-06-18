@@ -4,15 +4,17 @@ const Hiring = () => {
       <div className="title">
         <h1>We are hiring!</h1>
       </div>
-      <div className="video">
-        <div class="embed-responsive widescreen">
-          <iframe
-            width="1200"
-            height="600"
-            src="https://www.youtube.com/watch?v=dgT_la-173g"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+      <div className="size">
+        <div className="video">
+          <div class="embed-responsive widescreen">
+            <iframe
+              width="1200"
+              height="600"
+              src="https://www.youtube.com/watch?v=dgT_la-173g"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <p>

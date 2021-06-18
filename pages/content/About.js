@@ -59,7 +59,7 @@ const About = () => {
               </div>
             </div>
             <div className="col">
-              <b>FWeb Development</b>
+              <b>Web Development</b>
               <div className="col">
                 <p>
                   From WordPress to Laravel, we code them all, front to back:
