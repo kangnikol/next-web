@@ -1,18 +1,26 @@
 const Team = () => {
-  return (
-    <div className="teamRoot">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1>Test</h1>
-          </div>
-          <div className="col">
-            <h1>Test</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div className="container teamContainer">
+			<div className="row teamRow">
+				<div className="col teamCol">
+					<h1>Test</h1>
+				</div>
+				<div className="col teamCol">
+					<h1>Test</h1>
+				</div>
+			</div>
+			{/* End */}
+			<div className="row  teamRow">
+				<div className="col teamCol">
+					<h1>Test</h1>
+				</div>
+				<div className="col teamCol">
+					<h1>Test</h1>
+				</div>
+			</div>
+			{/* End */}
+		</div>
+	);
 };
 
 export default Team;
