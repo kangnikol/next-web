@@ -1,11 +1,4 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const About = () => {
-  useEffect(() => {
-    AOS.init({});
-  }, []);
   return (
     <section id="about">
       <div className="aboutBox">
@@ -14,48 +7,46 @@ const About = () => {
             <div className="col">
               <h1>Who Are We</h1>
             </div>
-            <div className="col" data-aos="fade-down">
-              <p>
-                Senja offers fast and affordable IT Services and bespoke Web-
-                and App-Development. Our highly agile team will turn your vision
-                into reality in budget and time. With over 7 years of experience
-                and hundreds of successfully finished and running projects we
-                are able to bring your product or service to Product-Market-Fit
-                while providing you with in-depth advise on
-                Go-To-Market-Strategies and effective, data-driven roadmapping.
-              </p>
-              <div className="row" data-aos="fade-left">
-                <div className="col cCols">
-                  <p>Strategy</p>
-                  <ul class="list-group">
-                    <li className="">Digital Strategy</li>
-                    <li className="">Content Strategy</li>
-                    <li className="">Responsive development</li>
-                    <li className="">Web Design</li>
-                    <li className="">Motion Design</li>
-                    <li className="">Data Analyst</li>
-                    <li className="">Brand Experience</li>
-                  </ul>
-                </div>
-                <div className="col cCols">
-                  <p>Development</p>
-                  <ul class="list-group">
-                    <li className="">Design Direction</li>
-                    <li className="">Web & Mobile UI</li>
-                    <li className="">Creative Concepts & Ideas</li>
-                    <li className="">User Experience Design</li>
-                    <li className="">Branding & Identity</li>
-                    <li className="">Websites & Web Applications</li>
-                    <li className="">E-Commerce</li>
-                  </ul>
-                </div>
+            <p>
+              Senja offers fast and affordable IT Services and bespoke Web- and
+              App-Development. Our highly agile team will turn your vision into
+              reality in budget and time. With over 7 years of experience and
+              hundreds of successfully finished and running projects we are able
+              to bring your product or service to Product-Market-Fit while
+              providing you with in-depth advise on Go-To-Market-Strategies and
+              effective, data-driven roadmapping.
+            </p>
+            <div className="row">
+              <div className="col cCols">
+                <p>Strategy</p>
+                <ul class="list-group">
+                  <li className="">Digital Strategy</li>
+                  <li className="">Content Strategy</li>
+                  <li className="">Responsive development</li>
+                  <li className="">Web Design</li>
+                  <li className="">Motion Design</li>
+                  <li className="">Data Analyst</li>
+                  <li className="">Brand Experience</li>
+                </ul>
+              </div>
+              <div className="col cCols">
+                <p>Development</p>
+                <ul class="list-group">
+                  <li className="">Design Direction</li>
+                  <li className="">Web & Mobile UI</li>
+                  <li className="">Creative Concepts & Ideas</li>
+                  <li className="">User Experience Design</li>
+                  <li className="">Branding & Identity</li>
+                  <li className="">Websites & Web Applications</li>
+                  <li className="">E-Commerce</li>
+                </ul>
               </div>
             </div>
           </div>
           <div className="row cRows">
             <div className="col">
               <div className="headline-xxs">
-                <h1 data-aos="fade-up">What We Do</h1>
+                <h1>What We Do</h1>
               </div>
             </div>
             <div className="col">
@@ -67,7 +58,6 @@ const About = () => {
                   Online Shops – for all browsers and devices.
                 </p>
               </div>
-              <hr data-aos="fade-right" />
               <b>Game Development</b>
               <div className="col">
                 <p>
@@ -77,7 +67,6 @@ const About = () => {
                   quality and entertaining experiences.
                 </p>
               </div>
-              <hr data-aos="fade-right" />
               <b>Mobile Development</b>
               <div className="col">
                 <p>
@@ -85,7 +74,6 @@ const About = () => {
                   of Xamarin. Along with all necessary Server work.
                 </p>
               </div>
-              <hr data-aos="fade-right" />
               <b>Video Production</b>
               <div className="col">
                 <p>
@@ -94,7 +82,6 @@ const About = () => {
                   need help increasing the visual appeal of their channels.
                 </p>
               </div>
-              <hr data-aos="fade-right" />
               <b>Maintenance Services</b>
               <div className="col">
                 <p>
@@ -103,7 +90,6 @@ const About = () => {
                   make sure it keeps running safe.
                 </p>
               </div>
-              <hr data-aos="fade-right" />
             </div>
           </div>
           <div className="row cRows">
@@ -111,7 +97,7 @@ const About = () => {
               <h1>Work Process</h1>
             </div>
             <div className="col">
-              <div className="row" data-aos="fade-left">
+              <div className="row">
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Laudantium voluptatem soluta sit, doloribus tempora numquam
@@ -120,7 +106,7 @@ const About = () => {
                   quos inventore consequatur corporis placeat consectetur est
                   beatae. Facere, optio.
                 </p>
-                <div className="row" data-aos="fade-left">
+                <div className="row">
                   <div className="col">
                     <ul class="list-group">
                       <b>Brainstoriming</b>
@@ -149,7 +135,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="row" data-aos="fade-left">
+                <div className="row">
                   <div className="col">
                     <ul class="list-group">
                       <b>Brainstoriming</b>

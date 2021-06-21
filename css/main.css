@@ -478,7 +478,6 @@ footer h4 {
     color: #f17e3a;
   }
   .headerBox {
-    margin-top: -200;
     min-height: 98.5vh;
     background-color: rgba(0, 0, 0, 0.7);
     background-image: url("../public/f12.jpg");
@@ -500,8 +499,8 @@ footer h4 {
     position: relative;
     z-index: 10;
     color: white;
-    margin-left: 4em;
-    margin-top: 4.5em;
+    margin-left: 2em;
+    margin-top: 3em;
     font-size: 5em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -514,7 +513,7 @@ footer h4 {
   .headerBox .hBtn {
     display: inline-block;
     margin-top: 1em;
-    margin-left: 20em;
+    margin-left: 10em;
     color: #fff;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
