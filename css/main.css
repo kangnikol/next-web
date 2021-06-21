@@ -111,15 +111,19 @@ body {
   margin-left: 3px;
 }
 
+.aboutBox2 {
+  padding: 6em;
+}
+
+.aboutBox2 .betterDark {
+  background-color: white;
+  color: #000;
+}
+
 .aboutBox {
   padding: 6em;
   background: black;
   color: #fff;
-}
-
-.aboutBox .white {
-  background: white;
-  color: #000;
 }
 
 .aboutBox .plsTengah {
@@ -771,8 +775,3 @@ footer h4 {
   }
 }
 /*# sourceMappingURL=main.css.map */
-
-.betterDark {
-	background-color: #000;
-	color: #fff;
-}
