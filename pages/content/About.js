@@ -16,31 +16,29 @@ const About = () => {
               providing you with in-depth advise on Go-To-Market-Strategies and
               effective, data-driven roadmapping.
             </p>
-            <div className="row">
-              <div className="col cCols">
-                <p>Strategy</p>
-                <ul class="list-group">
-                  <li className="">Digital Strategy</li>
-                  <li className="">Content Strategy</li>
-                  <li className="">Responsive development</li>
-                  <li className="">Web Design</li>
-                  <li className="">Motion Design</li>
-                  <li className="">Data Analyst</li>
-                  <li className="">Brand Experience</li>
-                </ul>
-              </div>
-              <div className="col cCols">
-                <p>Development</p>
-                <ul class="list-group">
-                  <li className="">Design Direction</li>
-                  <li className="">Web & Mobile UI</li>
-                  <li className="">Creative Concepts & Ideas</li>
-                  <li className="">User Experience Design</li>
-                  <li className="">Branding & Identity</li>
-                  <li className="">Websites & Web Applications</li>
-                  <li className="">E-Commerce</li>
-                </ul>
-              </div>
+            <div className="col cCols">
+              <p>Strategy</p>
+              <ul class="list-group">
+                <li className="">Digital Strategy</li>
+                <li className="">Content Strategy</li>
+                <li className="">Responsive development</li>
+                <li className="">Web Design</li>
+                <li className="">Motion Design</li>
+                <li className="">Data Analyst</li>
+                <li className="">Brand Experience</li>
+              </ul>
+            </div>
+            <div className="col cCols">
+              <p>Development</p>
+              <ul class="list-group">
+                <li className="">Design Direction</li>
+                <li className="">Web & Mobile UI</li>
+                <li className="">Creative Concepts & Ideas</li>
+                <li className="">User Experience Design</li>
+                <li className="">Branding & Identity</li>
+                <li className="">Websites & Web Applications</li>
+                <li className="">E-Commerce</li>
+              </ul>
             </div>
           </div>
           <div className="row cRows">
@@ -92,82 +90,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row cRows">
-            <div className="col">
-              <h1>Work Process</h1>
-            </div>
-            <div className="col">
-              <div className="row">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laudantium voluptatem soluta sit, doloribus tempora numquam
-                  sed! Laboriosam, doloremque. Cupiditate quas illo atque optio
-                  quaerat, esse necessitatibus, dolorem itaque culpa accusamus
-                  quos inventore consequatur corporis placeat consectetur est
-                  beatae. Facere, optio.
-                </p>
-                <div className="row">
-                  <div className="col">
-                    <ul class="list-group">
-                      <b>Brainstoriming</b>
-                      <p>
-                        Lomo dreamcatcher bushwick gastropub swag. Hammock
-                        sriracha paleo, iPhone swag af flexitarian hella pickled
-                        neutra pug. Trust fund chicharrones iPhone stumptown
-                        chia. Godard 3 wolf moon tacos try-hard. Shoreditch
-                        cliche marfa godard gochujang kinfolk hoodie you
-                        probably haven't heard of them echo park DIY tilde
-                        PBR&B.
-                      </p>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <ul class="list-group">
-                      <b>Brainstoriming</b>
-                      <p>
-                        Lomo dreamcatcher bushwick gastropub swag. Hammock
-                        sriracha paleo, iPhone swag af flexitarian hella pickled
-                        neutra pug. Trust fund chicharrones iPhone stumptown
-                        chia. Godard 3 wolf moon tacos try-hard. Shoreditch
-                        cliche marfa godard gochujang kinfolk hoodie you
-                        probably haven't heard of them echo park DY tilde PBR&B.
-                      </p>
-                    </ul>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col">
-                    <ul class="list-group">
-                      <b>Brainstoriming</b>
-                      <p>
-                        Lomo dreamcatcher bushwick gastropub swag. Hammock
-                        sriracha paleo, iPhone swag af flexitarian hella pickled
-                        neutra pug. Trust fund chicharrones iPhone stumptown
-                        chia. Godard 3 wolf moon tacos try-hard. Shoreditch
-                        cliche marfa godard gochujang kinfolk hoodie you
-                        probably haven't heard of them echo park DIY tilde
-                        PBR&B.
-                      </p>
-                    </ul>
-                  </div>
-                  <div className="col">
-                    <ul class="list-group">
-                      <b>Brainstoriming</b>
-                      <p>
-                        Lomo dreamcatcher bushwick gastropub swag. Hammock
-                        sriracha paleo, iPhone swag af flexitarian hella pickled
-                        neutra pug. Trust fund chicharrones iPhone stumptown
-                        chia. Godard 3 wolf moon tacos try-hard. Shoreditch
-                        cliche marfa godard gochujang kinfolk hoodie you
-                        probably haven't heard of them echo park DIY tilde
-                        PBR&B.
-                      </p>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
           {/* End */}
           <div className="row cRows">
             <div className="col-5">
@@ -215,7 +138,7 @@ const About = () => {
                 <div className="plsTengah">
                   <div className="col aStroke">300+</div>
                   <div className="col">
-                    <p>Projects & Clients</p>
+                    <p>Projects</p>
                   </div>
                   <div className="col">
                     <ul class="list-group">

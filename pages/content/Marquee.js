@@ -8,7 +8,7 @@ const Marquee = () => {
               <div className="parent">
                 <div className="child">
                   <h1>
-                    WE BRING YOUR <span className="stroke">IDEAS</span> TO{" "}
+                    WE DELIVER <span className="stroke">IDEAS</span> TO{" "}
                     <span className="stroke">LIFE</span> /
                   </h1>
                 </div>

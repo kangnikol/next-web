@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import "../styles/Home.module.css";
 import Header from "./content/Header";
 import Hiring from "./content/Hiring";
@@ -15,7 +13,6 @@ export default function Home() {
       <Header />
       <Hiring />
       <About />
-      <Team />
       <Marquee />
     </div>
   );
