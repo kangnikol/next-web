@@ -11,11 +11,11 @@ const Portofolio = () => {
     <section id="portofolio">
       <div class="portofolioBox">
         <div class="row r-text">
-          <div data-aos="fade-left">
+          <marquee behavior="scroll" direction="left">
             <div class="title">
               <span>Portofolio</span>
             </div>
-          </div>
+          </marquee>
         </div>
         <div class="row">
           <div class="col">

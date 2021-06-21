@@ -7,23 +7,19 @@ const Footer = () => {
           {/* <!-- flex-container start --> */}
           <div class="container flex-align-center">
             {/* <!-- column start --> */}
-            <div class="eight-columns padding-top-90">
-              <h4 class="column-l-r-margin-10 headline-s headline-uppercase">
-                The Best
+            <div class="row fRows">
+              <h4 class="col-10">
+                REACH OUT
                 <br />
-                Agency for
-                <br />
-                Your Businnes
+                TO US TODAY
               </h4>
-            </div>
-            {/* <!-- column end --> */}
+              {/* <!-- column end --> */}
 
-            {/* <!-- column start --> */}
-            <div class="four-columns padding-top-90">
-              <ul class="column-l-r-margin-10 list">
+              {/* <!-- column start --> */}
+              <div class="col">
                 <li class="list__item">
                   <a
-                    href="index.html"
+                    href="#"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     Home
@@ -31,219 +27,92 @@ const Footer = () => {
                 </li>
                 <li class="list__item">
                   <a
-                    href="about.html"
+                    href="#about"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     About
                   </a>
                 </li>
+
                 <li class="list__item">
                   <a
-                    href="services.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="portfolio_fullscreen.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Portfolio
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="blog.html"
-                    class="footer-nav-btn js-pointer-small js-animsition-link"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li class="list__item">
-                  <a
-                    href="contact.html"
+                    href="#contact"
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     Contact
                   </a>
                 </li>
-              </ul>
+              </div>
             </div>
             {/* <!-- column end --> */}
           </div>
           {/* <!-- flex-container end --> */}
 
           {/* <!-- flex-container start --> */}
-          <div class="flex-container padding-top-30">
-            {/* <!-- column start --> */}
-            <div class="four-columns padding-top-60">
-              <div class="column-l-r-margin-10">
-                <div class="headline-xxxxs">Email:</div>
-                <div class="margin-top-20">
-                  <a href="#" class="line-btn js-pointer-small">
-                    email@tumar_agency.com
-                  </a>
-                  <div class="margin-top-5">
-                    <a href="#" class="line-btn js-pointer-small">
-                      email@tumar_job.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- column end --> */}
-
-            {/* <!-- column start --> */}
-            <div class="four-columns padding-top-60">
-              <div class="column-l-r-margin-10">
-                <div class="headline-xxxxs">Phone:</div>
-                <div class="margin-top-20">
-                  <a
-                    href="#"
-                    class="
-                        subhead-xxs
-                        text-color-b0b0b0 text-hover-to-white
-                        js-pointer-small
-                      "
-                  >
-                    +23 8 8532 7834
-                  </a>
-                  <div class="margin-top-5">
-                    <a
-                      href="#"
-                      class="
-                          subhead-xxs
-                          text-color-b0b0b0 text-hover-to-white
-                          js-pointer-small
-                        "
-                    >
-                      +23 8 9635 7335
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- column end --> */}
-
-            {/* <!-- column start --> */}
-            <div class="four-columns padding-top-60">
-              <div class="column-l-r-margin-10">
-                <div class="headline-xxxxs">Address:</div>
-                <div class="margin-top-20">
-                  <a
-                    href="#"
-                    class="
-                        subhead-xxs
-                        text-color-b0b0b0 text-hover-to-white
-                        js-pointer-small
-                      "
-                  >
-                    PO Box 223158 Oliver Street
-                    <br />
-                    East Victoria 2006 UK
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* <!-- column end --> */}
-
-            {/* <!-- column start --> */}
-            <div class="twelve-columns padding-top-90">
-              <div class="column-l-r-margin-10 padding-top-30 pos-rel">
-                <div
-                  class="anim-line-top"
-                  data-scroll
-                  data-scroll-offset="5%"
-                ></div>
-                {/* <!-- footer-social start --> */}
-                <ul class="list list_row list_margin-30px">
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Facebook
-                    </a>
-                  </li>
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Dribbble
-                    </a>
-                  </li>
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Youtube
-                    </a>
-                  </li>
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Behance
-                    </a>
-                  </li>
-                  <li class="list__item">
-                    <a
-                      href="#"
-                      class="flip-btn js-pointer-small"
-                      data-splitting
-                    >
-                      Twitter
-                    </a>
-                  </li>
-                </ul>
-                {/* <!-- footer-social end --> */}
-              </div>
-            </div>
-            {/* <!-- column end --> */}
-
-            {/* <!-- column start --> */}
-            <div class="twelve-columns padding-top-120">
-              <div class="column-l-r-margin-10 pos-rel">
-                <p class="copyright margin-right-30">
-                  &copy; Copyright 2020 TUMAR. Template by
-                  <a href="#" class="copyright__author js-pointer-small">
-                    Jinna Gik
+          {/* <!-- column start --> */}
+          <section id="contact">
+            <div class="row fRows2">
+              <div class="col">
+                <h5>Email:</h5>
+                <p className="contact">
+                  <a href="mailto:info@senja.co.uk" class="email">
+                    info@senja.co.uk
                   </a>
                 </p>
-                {/* <!-- to top btn start --> */}
-                <a
-                  href="#up"
-                  class="scroll-to-btn js-pointer-large"
-                  data-scroll
-                  data-scroll-repeat
-                  data-scroll-to
-                >
-                  <span class="scroll-to-btn__arrow"></span>{" "}
-                </a>
-                {/* <!-- to top btn end --> */}
+              </div>
+              {/* <!-- column end --> */}
+
+              {/* <!-- column start --> */}
+              <div class="col">
+                <h5>Phone:</h5>
+                <p className="contact">
+                  <div className="phone">
+                    <a href="tel://+6281224464422">+6281224464422</a>
+                  </div>
+                </p>
+              </div>
+              {/* <!-- column end --> */}
+
+              {/* <!-- column start --> */}
+              <div className="fRows3">
+                <div class="row">
+                  <div class="col">
+                    {/* <!-- footer-social start --> */}
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/senjasolutions/">
+                          Facebook
+                        </a>
+                      </li>
+                      <li class="list__item">
+                        <a href="https://www.instagram.com/senjasolusi/">
+                          Instagram
+                        </a>
+                      </li>
+                    </ul>
+                    {/* <!-- footer-social end --> */}
+                  </div>
+                </div>
               </div>
             </div>
-            {/* <!-- column end --> */}
+          </section>
+          {/* <!-- column end --> */}
+
+          {/* <!-- column start --> */}
+          <div class="row cr">
+            <div class="col">
+              <p class="text-center">&copy; Copyright 2021 Senja Solutions.</p>
+              {/* <!-- to top btn start --> */}
+              <a>
+                <span class="scroll-to-btn__arrow"></span>{" "}
+              </a>
+              {/* <!-- to top btn end --> */}
+            </div>
           </div>
+          {/* <!-- column end --> */}
+
           {/* <!-- flex-container end --> */}
+          {/* </div> */}
         </div>
         {/* <!-- container end --> */}
       </footer>
