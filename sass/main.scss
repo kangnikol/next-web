@@ -104,15 +104,19 @@ body {
 }
 
 // About
+.aboutBox2 {
+  padding: 6em;
+
+  .betterDark {
+    background-color: white;
+    color: #000;
+  }
+}
+
 .aboutBox {
   padding: 6em;
   background: black;
   color: #fff;
-
-  .white {
-    background: white;
-    color: #000;
-  }
 
   .plsTengah {
     padding: 10px;

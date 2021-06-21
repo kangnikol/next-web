@@ -1,6 +1,6 @@
 const Second = () => {
   return (
-    <div className="aboutBox">
+    <div className="aboutBox2">
       <div className="container">
         <div className="row cRows betterDark">
           <div className="col">
