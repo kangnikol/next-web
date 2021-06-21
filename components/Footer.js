@@ -19,7 +19,7 @@ const Footer = () => {
               <div class="col">
                 <li class="list__item">
                   <a
-                    href="#"
+                    href="# "
                     class="footer-nav-btn js-pointer-small js-animsition-link"
                   >
                     Home

@@ -4,8 +4,8 @@ const Header = () => {
       <section id="header">
         <div className="headerBox">
           <div className="row">
-            <div className="col-7">
-              <div className="col-md-12">
+            <div className="col-10">
+              <div className="col-md-7">
                 {/* <div className="col-lg-7"> */}
                 <h1>
                   WE BRING YOUR <span className="stroke">IDEAS</span> TO{" "}
