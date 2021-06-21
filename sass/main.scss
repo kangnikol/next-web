@@ -70,17 +70,6 @@ body {
 }
 
 .hiring {
-  .title {
-    h1 {
-      font-size: 5em;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    margin-top: 2em;
-    display: flex;
-    justify-content: center;
-  }
-
   .video {
     position: relative;
     display: flex;
@@ -413,18 +402,9 @@ footer {
     }
   }
   .hiring {
-    .title {
-      h1 {
-        font-size: 5em;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      margin-top: 2em;
-      display: flex;
-      justify-content: center;
-    }
-
+    padding: 6em;
     .video {
+      margin-top: 2em;
       position: relative;
       display: flex;
       justify-content: center;
@@ -434,9 +414,9 @@ footer {
     }
 
     p {
+      margin-top: 2em;
       display: flex;
       justify-content: center;
-      margin-bottom: 2em;
       a {
         text-transform: uppercase;
         color: $senja;

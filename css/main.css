@@ -63,22 +63,6 @@ body {
   -webkit-text-stroke-color: #fff;
 }
 
-.hiring .title {
-  margin-top: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.hiring .title h1 {
-  font-size: 5em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .hiring .video {
   position: relative;
   display: -webkit-box;
@@ -439,21 +423,11 @@ footer h4 {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: #fff;
   }
-  .hiring .title {
-    margin-top: 2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .hiring .title h1 {
-    font-size: 5em;
-    font-weight: 700;
-    text-transform: uppercase;
+  .hiring {
+    padding: 6em;
   }
   .hiring .video {
+    margin-top: 2em;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -468,13 +442,13 @@ footer h4 {
     overflow: hidden;
   }
   .hiring p {
+    margin-top: 2em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 2em;
   }
   .hiring p a {
     text-transform: uppercase;
