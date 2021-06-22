@@ -12,8 +12,8 @@ const Hiring = () => {
                 width="1200"
                 height="600"
                 src="https://www.youtube.com/watch?v=dgT_la-173g"
-                frameborder="0"
-                allowfullscreen
+                frameBorder="0"
+                allowFullscreen
               ></iframe>
             </div>
           </div>

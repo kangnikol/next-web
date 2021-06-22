@@ -366,8 +366,10 @@ footer h4 {
   .customNav .navbar-brand .senja {
     color: #f17e3a;
   }
-  .headerBox Image {
+  .headerBox {
     min-height: 100vh;
+  }
+  .headerBox Image {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
