@@ -9,12 +9,14 @@ const Marquee = () => {
             <h1>We wonder</h1>
           </div>
           <div className="col">
-            <Image
-              src="/wonder.png"
-              href="https://www.joinwonder.com/"
-              width={236}
-              height={128}
-            />
+            <a href="https://www.joinwonder.com">
+              <Image
+                src="/wonder.png"
+                href="https://www.joinwonder.com/"
+                width={236}
+                height={128}
+              />
+            </a>
           </div>
           <div className="col">
             <p>
