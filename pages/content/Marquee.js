@@ -3,9 +3,7 @@ const Marquee = () => {
     <div className="marqueeRoot">
       <div className="row">
         <div className="col">
-          <div className="border">
-            <h1>WE DELIVER</h1>
-          </div>
+          <h1>WE DELIVER</h1>
         </div>
       </div>
     </div>
