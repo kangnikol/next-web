@@ -14,5 +14,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "swiper": "^6.7.0"
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.9"
   }
 }

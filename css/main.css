@@ -38,10 +38,8 @@ body {
   color: #f17e3a;
 }
 
-.headerBox {
-  min-height: 110vh;
-  background-color: rgba(0, 0, 0, 0.7);
-  background-image: url("../public/f12.jpg");
+.headerBox Image {
+  min-width: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -52,6 +50,7 @@ body {
   color: white;
   margin-left: 1em;
   margin-top: 3em;
+  margin-bottom: 5em;
   font-size: 5em;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -231,12 +230,6 @@ body {
   padding: 3em;
 }
 
-.marqueeRoot h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 footer {
   padding: 4em;
   background: black;
@@ -307,7 +300,6 @@ footer .fRows {
 }
 
 footer .fRows h4 {
-  text-transform: uppercase;
   font-size: 4em;
 }
 
@@ -370,10 +362,9 @@ footer h4 {
   .customNav .navbar-brand .senja {
     color: #f17e3a;
   }
-  .headerBox {
+  .headerBox Image {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
-    background-image: url("../public/f12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -382,8 +373,9 @@ footer h4 {
     z-index: 10;
     color: white;
     margin-left: 2em;
-    margin-top: 3em;
-    font-size: 5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: 4em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
   }
@@ -586,12 +578,7 @@ footer h4 {
        object-fit: cover;
   }
   .marqueeRoot {
-    padding: 3em;
-  }
-  .marqueeRoot h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
+    padding: 6em;
   }
   footer {
     padding: 4em;
@@ -650,7 +637,6 @@ footer h4 {
     margin-bottom: 2em;
   }
   footer .fRows h4 {
-    text-transform: uppercase;
     font-size: 3em;
   }
   footer .fRows2 {
