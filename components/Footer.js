@@ -9,9 +9,9 @@ const Footer = () => {
             {/* <!-- column start --> */}
             <div class="row fRows">
               <h4 class="col-10">
-                REACH OUT
+                Reach out
                 <br />
-                TO US TODAY
+                to us today
               </h4>
               {/* <!-- column end --> */}
 
