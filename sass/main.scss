@@ -10,7 +10,6 @@ html {
 // Body
 body {
   font-family: "Lato", sans-serif;
-  min-width: 100vh;
 }
 
 // Navbar
@@ -398,53 +397,6 @@ footer {
     }
   }
 
-  // Portofolio
-  .portofolioBox {
-    // margin-top: 1px;
-    color: white;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-    .r-text {
-      // display: flex;
-      text-align: center;
-      // justify-content: center;
-
-      .title {
-        letter-spacing: 3px;
-        font-weight: 900;
-        line-height: 1;
-        z-index: 2;
-        display: block;
-        text-transform: uppercase;
-        color: transparent;
-        -webkit-text-stroke: 1px;
-        -webkit-text-stroke-color: black;
-        // margin-right: -30%;
-        margin-bottom: 60px;
-        margin-top: 60px;
-        span {
-          position: relative;
-          right: 0;
-          z-index: 100;
-          font-size: 15em;
-        }
-      }
-    }
-
-    .card {
-      display: flex;
-      align-items: center;
-      margin-left: 3em;
-      margin-bottom: 70px;
-      color: black;
-    }
-  }
-
   // About
   .aboutBox {
     padding: 6em;
@@ -556,6 +508,11 @@ footer {
   // Marquee
   .marqueeRoot {
     padding: 6em;
+
+    .content {
+      display: flex;
+      align-items: center;
+    }
   }
 
   // Footer
