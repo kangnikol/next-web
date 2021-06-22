@@ -338,7 +338,6 @@ footer .fRows {
 }
 
 footer .fRows h4 {
-  text-transform: uppercase;
   font-size: 4em;
 }
 
@@ -681,7 +680,6 @@ footer h4 {
     margin-bottom: 2em;
   }
   footer .fRows h4 {
-    text-transform: uppercase;
     font-size: 3em;
   }
   footer .fRows2 {
