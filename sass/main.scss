@@ -10,6 +10,7 @@ html {
 // Body
 body {
   font-family: "Lato", sans-serif;
+  min-width: 100vh;
 }
 
 // Navbar
@@ -44,20 +45,21 @@ body {
 
 // Header
 .headerBox {
-  Image {
-    min-width: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  display: block;
+  min-width: 100vh;
+  background-image: url(/f12m.png);
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     position: relative;
     z-index: 10;
     color: white;
     margin-left: 1em;
-    margin-top: 3em;
-    margin-bottom: em;
-    font-size: 5em;
+    margin-top: 5em;
+    font-size: 3em;
+    margin-bottom: 7em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
 
@@ -178,45 +180,18 @@ body {
   // margin-top: 50px;
 }
 
-// Swiper
-.swiper-container {
-  width: 100%;
-  height: 100vh;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 // Marquee
 .marqueeRoot {
-  padding: 3em;
-  h1 {
-    // font-weight: 700;
+  .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    .img {
+      margin-top: -2em;
+    }
   }
+  padding: 3em;
 }
 
 // Footer
@@ -313,6 +288,10 @@ footer {
 }
 
 @media (min-width: 992px) {
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
   // Navbar
   .customNav {
     font-family: "Lato", sans-serif;
@@ -512,6 +491,7 @@ footer {
     .content {
       display: flex;
       align-items: center;
+      justify-content: space-around;
     }
   }
 

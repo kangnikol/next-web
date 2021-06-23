@@ -8,7 +8,7 @@ const Marquee = () => {
           <div className="col">
             <h1>We wonder</h1>
           </div>
-          <div className="col">
+          <div className="col img">
             <a href="https://www.joinwonder.com">
               <Image
                 src="/wonder.png"

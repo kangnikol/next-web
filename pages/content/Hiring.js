@@ -9,8 +9,8 @@ const Hiring = () => {
           <div className="video">
             <div class="embed-responsive widescreen">
               <iframe
-                width="1200"
-                height="600"
+                width="1000"
+                height="500"
                 src="https://www.youtube.com/watch?v=dgT_la-173g"
                 frameBorder="0"
                 allowFullscreen
