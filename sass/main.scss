@@ -305,7 +305,7 @@ footer {
 
 @media (min-width: 1080px) {
   body {
-    font-family: "Staatliches", cursive;
+    font-family: "Lato", sans-serif;
   }
 
   // Navbar
@@ -394,6 +394,7 @@ footer {
 
   // About
   .aboutBox {
+    text-align: left;
     padding: 6em;
     background: black;
     color: #fff;

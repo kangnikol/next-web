@@ -346,7 +346,7 @@ footer h4 {
 
 @media (min-width: 1080px) {
   body {
-    font-family: "Staatliches", cursive;
+    font-family: "Lato", sans-serif;
   }
   .customNav {
     font-family: "Lato", sans-serif;
@@ -430,6 +430,7 @@ footer h4 {
     margin-left: 3px;
   }
   .aboutBox {
+    text-align: left;
     padding: 6em;
     background: black;
     color: #fff;
