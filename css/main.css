@@ -37,7 +37,8 @@ body {
 
 .customNav .navbar-brand .senja {
   color: #f17e3a;
-	transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .headerBox {
@@ -366,12 +367,14 @@ footer h4 {
   .customNav .navbar-brand {
     margin-left: 10px;
     font-family: "Lobster", cursive;
-    font-size: 2em;
+    font-size: 200%;
     color: white;
     text-transform: none;
   }
   .customNav .navbar-brand .senja {
     color: #f17e3a;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
   }
   .headerBox {
     min-height: 100vh;
@@ -387,7 +390,6 @@ footer h4 {
     color: white;
     margin-left: 2em;
     margin-top: 5em;
-    margin-bottom: 5em;
     font-size: 4em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -397,11 +399,7 @@ footer h4 {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: #fff;
   }
-  .hiring {
-    padding: 6em;
-  }
   .hiring .video {
-    margin-top: 2em;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -412,11 +410,8 @@ footer h4 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    min-height: 70vh;
-    overflow: hidden;
   }
   .hiring p {
-    margin-top: 2em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -439,7 +434,11 @@ footer h4 {
   .aboutBox .title {
     margin-left: 0;
   }
+  .aboutBox p {
+    font-size: small;
+  }
   .aboutBox .content {
+    font-size: 1em;
     margin-right: 0;
   }
   .aboutBox .plsTengah {
@@ -518,6 +517,7 @@ footer h4 {
     margin-left: 0;
   }
   .aboutBox2 .content {
+    font-size: 1em;
     margin-right: 0;
   }
   .marqueeRoot {

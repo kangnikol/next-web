@@ -40,6 +40,7 @@ body {
 
     .senja {
       color: $senja;
+      transition: 0.4s;
     }
   }
 }
@@ -328,12 +329,13 @@ footer {
     .navbar-brand {
       margin-left: 10px;
       font-family: "Lobster", cursive;
-      font-size: 2em;
+      font-size: 200%;
       color: white;
       text-transform: none;
 
       .senja {
         color: $senja;
+        transition: 0.4s;
       }
     }
   }
@@ -354,7 +356,7 @@ footer {
       color: white;
       margin-left: 2em;
       margin-top: 5em;
-      margin-bottom: 5em;
+      // margin-bottom: 5em;
       font-size: 4em;
       font-family: "Lato", sans-serif;
       font-weight: 700;
@@ -367,20 +369,14 @@ footer {
     }
   }
   .hiring {
-    padding: 6em;
-
     .video {
-      margin-top: 2em;
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 70vh;
-      overflow: hidden;
     }
 
     p {
-      margin-top: 2em;
       display: flex;
       justify-content: center;
       a {
@@ -403,7 +399,12 @@ footer {
       margin-left: 0;
     }
 
+    p {
+      font-size: small;
+    }
+
     .content {
+      font-size: 1em;
       margin-right: 0;
     }
 
@@ -476,6 +477,7 @@ footer {
     }
 
     .content {
+      font-size: 1em;
       margin-right: 0;
     }
   }
