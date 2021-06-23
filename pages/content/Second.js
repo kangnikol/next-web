@@ -3,12 +3,10 @@ const Second = () => {
     <div className="aboutBox2">
       <div className="container">
         <div className="row cRows betterDark">
-          <div className="col">
-            <div className="headline-xxs">
-              <h1>We Do Better</h1>
-            </div>
+          <div className="col title">
+            <h1>We Do Better</h1>
           </div>
-          <div className="col">
+          <div className="col content">
             <b>Web Development</b>
             <div className="col">
               <p>

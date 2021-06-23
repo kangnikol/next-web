@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&family=Work+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 $senja: #f17e3a;
 $portofolio: #ffa874;
@@ -45,21 +46,20 @@ body {
 
 // Header
 .headerBox {
-  display: block;
+  position: relative;
   min-width: 100vh;
+  min-height: 100vh;
+  // margin-top: 5em;
   background-image: url(/f12m.png);
-  background-color: rgba($color: #000000, $alpha: 0.7);
   background-size: cover;
   background-repeat: no-repeat;
 
   h1 {
-    position: relative;
-    z-index: 10;
     color: white;
     margin-left: 1em;
-    margin-top: 5em;
-    font-size: 3em;
-    margin-bottom: 7em;
+    margin-top: 2em;
+    font-size: 4.5em;
+    // margin-bottom: 7em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
 
@@ -72,6 +72,7 @@ body {
 }
 
 .hiring {
+  margin-top: 4em;
   margin-bottom: 4em;
 
   .video {
@@ -99,17 +100,38 @@ body {
 // About
 .aboutBox2 {
   padding: 6em;
+  text-align: justify;
 
   .betterDark {
     background-color: white;
     color: #000;
   }
+
+  .title {
+    margin-left: -2em;
+    font-size: 1.5em;
+  }
+
+  .content {
+    font-size: 1.5em;
+    margin-right: -2em;
+  }
 }
 
 .aboutBox {
+  text-align: justify;
   padding: 6em;
   background: black;
   color: #fff;
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .content {
+    font-size: 1.5em;
+    margin-right: -2em;
+  }
 
   .plsTengah {
     padding: 10px;
@@ -118,6 +140,7 @@ body {
   }
 
   .ourSkill {
+    margin-top: 0;
     padding: 1em;
 
     p {
@@ -157,13 +180,6 @@ body {
 
   .cRows {
     padding-bottom: 5em;
-  }
-
-  .headline-xxs {
-    font-family: "Lato", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.2;
   }
 
   .aStroke {
@@ -287,9 +303,9 @@ footer {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   body {
-    font-family: "Lato", sans-serif;
+    font-family: "Staatliches", cursive;
   }
 
   // Navbar
@@ -382,6 +398,14 @@ footer {
     background: black;
     color: #fff;
 
+    .title {
+      margin-left: 0;
+    }
+
+    .content {
+      margin-right: 0;
+    }
+
     .plsTengah {
       padding: 10px;
       display: flex;
@@ -389,6 +413,7 @@ footer {
     }
 
     .ourSkill {
+      margin-top: 0;
       padding: 1em;
 
       p {
@@ -430,13 +455,6 @@ footer {
       padding-bottom: 5em;
     }
 
-    .headline-xxs {
-      font-family: "Lato", sans-serif;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-
     .aStroke {
       font-weight: 700;
       font-size: 5em;
@@ -451,37 +469,14 @@ footer {
     // margin-top: 50px;
   }
 
-  // Swiper
-  .swiper-container {
-    width: 100%;
-    height: 100vh;
-  }
+  .aboutBox2 {
+    .title {
+      margin-left: 0;
+    }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    .content {
+      margin-right: 0;
+    }
   }
 
   // Marquee

@@ -12,7 +12,7 @@ const Navbar = () => {
       ) {
         document.getElementById("senja").style.fontSize = "100%";
       } else {
-        document.getElementById("senja").style.fontSize = "300%";
+        document.getElementById("senja").style.fontSize = "200%";
       }
     }
   });

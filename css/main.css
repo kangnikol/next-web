@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&family=Work+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -39,22 +40,19 @@ body {
 }
 
 .headerBox {
-  display: block;
+  position: relative;
   min-width: 100vh;
+  min-height: 100vh;
   background-image: url(/f12m.png);
-  background-color: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .headerBox h1 {
-  position: relative;
-  z-index: 10;
   color: white;
   margin-left: 1em;
-  margin-top: 5em;
-  font-size: 3em;
-  margin-bottom: 7em;
+  margin-top: 2em;
+  font-size: 4.5em;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
@@ -66,6 +64,7 @@ body {
 }
 
 .hiring {
+  margin-top: 4em;
   margin-bottom: 4em;
 }
 
@@ -103,6 +102,7 @@ body {
 
 .aboutBox2 {
   padding: 6em;
+  text-align: justify;
 }
 
 .aboutBox2 .betterDark {
@@ -110,10 +110,30 @@ body {
   color: #000;
 }
 
+.aboutBox2 .title {
+  margin-left: -2em;
+  font-size: 1.5em;
+}
+
+.aboutBox2 .content {
+  font-size: 1.5em;
+  margin-right: -2em;
+}
+
 .aboutBox {
+  text-align: justify;
   padding: 6em;
   background: black;
   color: #fff;
+}
+
+.aboutBox .title {
+  font-size: 1.5em;
+}
+
+.aboutBox .content {
+  font-size: 1.5em;
+  margin-right: -2em;
 }
 
 .aboutBox .plsTengah {
@@ -127,6 +147,7 @@ body {
 }
 
 .aboutBox .ourSkill {
+  margin-top: 0;
   padding: 1em;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -183,13 +204,6 @@ body {
 
 .aboutBox .cRows {
   padding-bottom: 5em;
-}
-
-.aboutBox .headline-xxs {
-  font-family: "Lato", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.2;
 }
 
 .aboutBox .aStroke {
@@ -330,9 +344,9 @@ footer h4 {
   font-size: 4em;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   body {
-    font-family: "Lato", sans-serif;
+    font-family: "Staatliches", cursive;
   }
   .customNav {
     font-family: "Lato", sans-serif;
@@ -420,6 +434,12 @@ footer h4 {
     background: black;
     color: #fff;
   }
+  .aboutBox .title {
+    margin-left: 0;
+  }
+  .aboutBox .content {
+    margin-right: 0;
+  }
   .aboutBox .plsTengah {
     padding: 10px;
     display: -webkit-box;
@@ -430,6 +450,7 @@ footer h4 {
             align-items: center;
   }
   .aboutBox .ourSkill {
+    margin-top: 0;
     padding: 1em;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -481,12 +502,6 @@ footer h4 {
   .aboutBox .cRows {
     padding-bottom: 5em;
   }
-  .aboutBox .headline-xxs {
-    font-family: "Lato", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.2;
-  }
   .aboutBox .aStroke {
     font-weight: 700;
     font-size: 5em;
@@ -497,31 +512,11 @@ footer h4 {
   .aboutBox hr {
     background: white;
   }
-  .swiper-container {
-    width: 100%;
-    height: 100vh;
+  .aboutBox2 .title {
+    margin-left: 0;
   }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .aboutBox2 .content {
+    margin-right: 0;
   }
   .marqueeRoot {
     padding: 6em;

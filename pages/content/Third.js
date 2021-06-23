@@ -3,14 +3,14 @@ const Third = () => {
     <div className="aboutBox">
       <div className="container">
         <div className="row cRows">
-          <div className="col-5">
+          <div className="col">
             <h1>We Work</h1>
           </div>
           <div className="col">
             <div className="row ourSkill">
               <div className="plsTengah">
                 <div className="col aStroke">20+</div>
-                <div className="col">
+                <div className="col title">
                   <p>Skills</p>
                 </div>
                 <div className="col">
@@ -29,7 +29,7 @@ const Third = () => {
             <div className="row ourSkill2">
               <div className="plsTengah">
                 <div className="col aStroke">50+</div>
-                <div className="col">
+                <div className="col title">
                   <p>Team</p>
                 </div>
                 <div className="col">
@@ -47,7 +47,7 @@ const Third = () => {
             <div className="row ourSkill2">
               <div className="plsTengah">
                 <div className="col aStroke">300+</div>
-                <div className="col">
+                <div className="col title">
                   <p>Projects</p>
                 </div>
                 <div className="col">
@@ -65,7 +65,7 @@ const Third = () => {
             <div className="row ourSkill2">
               <div className="plsTengah">
                 <div className="col aStroke">10+</div>
-                <div className="col">
+                <div className="col title">
                   <p>Years</p>
                 </div>
                 <div className="col">
