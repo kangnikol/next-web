@@ -1,8 +1,31 @@
+import React from "react";
+
 const Navbar = () => {
+  React.useEffect(() => {
+    window.onscroll = function () {
+      scrollFunction();
+    };
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      ) {
+        document.getElementById("senja").style.fontSize = "100%";
+      } else {
+        document.getElementById("senja").style.fontSize = "300%";
+      }
+    }
+  });
+
   return (
-    <nav class="navbar navbar-inverse navbar-expand-lg customNav fixed-top">
-      <a class="navbar-brand" href="#">
-        <span className="senja">Senja</span>
+    <nav
+      class="navbar navbar-inverse navbar-expand-lg customNav fixed-top"
+      id="navbarNav"
+    >
+      <a class="navbar-brand" href="#" id="navbar-brand">
+        <span className="senja" id="senja">
+          Senja
+        </span>
       </a>
       <div class="container">
         <button
