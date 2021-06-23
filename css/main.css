@@ -37,6 +37,7 @@ body {
 
 .customNav .navbar-brand .senja {
   color: #f17e3a;
+	transition: 0.4s;
 }
 
 .headerBox {

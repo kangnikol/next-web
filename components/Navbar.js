@@ -7,8 +7,8 @@ const Navbar = () => {
     };
     function scrollFunction() {
       if (
-        document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50
+        document.body.scrollTop > 80 ||
+        document.documentElement.scrollTop > 80
       ) {
         document.getElementById("senja").style.fontSize = "100%";
       } else {
