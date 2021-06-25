@@ -9,21 +9,6 @@ body {
   min-width: 100vh;
 }
 
-.customNav {
-  font-family: "Lato", sans-serif;
-  color: white;
-  text-transform: uppercase;
-}
-
-.customNav .nav-link {
-  color: white;
-  margin-left: 1em;
-}
-
-.customNav .nav-link:hover {
-  color: #f17e3a;
-}
-
 .customNav .navbar-brand {
   margin-left: 10px;
   font-family: "Lobster", cursive;
@@ -39,7 +24,6 @@ body {
 }
 
 .headerBox .bg {
-  min-height: 100vh;
   background-image: url(/f12m.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -360,17 +344,19 @@ footer h4 {
     transition: 0.4s;
   }
   .headerBox .bg {
+    position: relative;
     min-height: 100vh;
     background-image: url(/f12m.png);
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: -50em;
   }
   .headerBox h1 {
     position: relative;
     z-index: 10;
     color: white;
-    margin-left: 1em;
+    margin-left: 0.5em;
     margin-top: 3em;
     font-size: 5em;
     font-family: "Lato", sans-serif;
@@ -400,6 +386,7 @@ footer h4 {
   }
   .hiring h1 {
     margin-left: -0.01em;
+    margin-bottom: 1em;
   }
   .hiring iframe {
     width: 1000px;
@@ -536,22 +523,6 @@ footer h4 {
     background: black;
     color: white;
   }
-  footer li {
-    list-style-type: none;
-  }
-  footer li a:hover {
-    color: white;
-    border-bottom: 1px solid white;
-  }
-  footer a {
-    color: white;
-    text-decoration: none;
-    opacity: 0.6;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    line-height: 1.2;
-  }
   footer .fRows {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -562,7 +533,10 @@ footer h4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
+  }
+  footer .fRows h1 {
+    margin-left: 0.01em;
   }
   footer .fRows2 {
     display: -webkit-box;
@@ -627,6 +601,19 @@ footer h4 {
   }
   .aboutBox {
     font-size: 1em;
+  }
+  footer .fRows h1 {
+    margin-left: -0.35em;
+  }
+  footer .fRows2
+h1 {
+    margin-left: -0.1em;
+  }
+  footer p {
+    margin-left: -1em;
+  }
+  footer a {
+    margin-left: -1.3em;
   }
 }
 /*# sourceMappingURL=main.css.map */

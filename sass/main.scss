@@ -23,18 +23,6 @@ body {
 
 // Navbar
 .customNav {
-  font-family: "Lato", sans-serif;
-  color: white;
-  text-transform: uppercase;
-
-  .nav-link {
-    color: white;
-    margin-left: 1em;
-  }
-
-  .nav-link:hover {
-    color: $senja;
-  }
 
   .navbar-brand {
     margin-left: 10px;
@@ -53,7 +41,6 @@ body {
 // Header
 .headerBox {
   .bg {
-    min-height: 100vh;
     background-image: url(/f12m.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -339,18 +326,20 @@ footer {
   // Header
   .headerBox {
     .bg {
+      position: relative;
       min-height: 100vh;
       background-image: url(/f12m.png);
       background-color: rgba($color: #000000, $alpha: 0.7);
       background-size: cover;
       background-repeat: no-repeat;
+      padding-bottom: -50em;
     }
 
     h1 {
       position: relative;
       z-index: 10;
       color: white;
-      margin-left: 1em;
+      margin-left: 0.5em;
       margin-top: 3em;
       // margin-bottom: 5em;
       font-size: 5em;
@@ -377,6 +366,7 @@ footer {
 
     h1 {
       margin-left: -0.01em;
+      margin-bottom: 1em;
     }
 
     iframe {
@@ -518,29 +508,15 @@ footer {
     background: black;
     color: white;
 
-    li {
-      list-style-type: none;
-      a:hover {
-        color: white;
-        border-bottom: 1px solid white;
-      }
-    }
-
-    a {
-      color: white;
-      text-decoration: none;
-      opacity: 0.6;
-      font-size: 13px;
-      font-weight: 400;
-      letter-spacing: 4px;
-      line-height: 1.2;
-    }
-
     .fRows {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 2em;
+      margin-bottom: 5em;
+
+      h1 {
+        margin-left: 0.01em;
+      }
     }
 
     .fRows2 {
@@ -617,5 +593,26 @@ footer {
 
   .aboutBox {
     font-size: 1em;
+  }
+
+  footer {
+    .fRows {
+      h1 {
+        margin-left: -0.35em;
+      }
+    }
+
+    .fRows2
+    h1 {
+      margin-left: -0.1em;
+    }
+
+    p {
+      margin-left: -1em;
+    }
+
+    a {
+      margin-left: -1.3em;
+    }
   }
 }
