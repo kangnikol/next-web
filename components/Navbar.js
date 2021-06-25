@@ -10,26 +10,26 @@ const Navbar = () => {
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80
       ) {
-        document.getElementById("senja").style.fontSize = "100%";
+        document.getElementById("senja").style.fontSize = "50%";
       } else {
-        document.getElementById("senja").style.fontSize = "200%";
+        document.getElementById("senja").style.fontSize = "100%";
       }
     }
   });
 
   return (
     <nav
-      class="navbar navbar-inverse navbar-expand-lg customNav fixed-top"
+      className="navbar navbar-inverse navbar-expand-lg customNav fixed-top"
       id="navbarNav"
     >
-      <a class="navbar-brand" href="#" id="navbar-brand">
+      <a className="navbar-brand" href="#" id="navbar-brand">
         <span className="senja" id="senja">
           Senja
         </span>
       </a>
-      <div class="container">
+      <div className="container">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -37,7 +37,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
       </div>
     </nav>

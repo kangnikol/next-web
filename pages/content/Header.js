@@ -2,11 +2,11 @@ const Header = () => {
   return (
     <div>
       <div className="headerBox">
-        <div className="container">
-          <div className="img"></div>
-          <div className="row">
-            <div className="col-9">
-              <div className="col-lg-7">
+        <div className="bg">
+          <div className="container">
+            <img src="/f12m.png" alt="Senja Solutions" />
+            <div className="row">
+              <div className="col-xl-1 col-xxl-8">
                 <h1>
                   WE BRING YOUR <span className="stroke">IDEAS</span> TO{" "}
                   <span className="stroke">LIFE</span>.

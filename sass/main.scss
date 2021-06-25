@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:wght@300;400;600&family=Work+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 $senja: #f17e3a;
 $portofolio: #ffa874;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
 
 html {
   scroll-behavior: smooth;
@@ -17,8 +24,6 @@ body {
 // Navbar
 .customNav {
   font-family: "Lato", sans-serif;
-  padding: 10px;
-  margin-bottom: 60px;
   color: white;
   text-transform: uppercase;
 
@@ -34,7 +39,7 @@ body {
   .navbar-brand {
     margin-left: 10px;
     font-family: "Lobster", cursive;
-    font-size: 2em;
+    font-size: 5em;
     color: white;
     text-transform: none;
 
@@ -47,19 +52,20 @@ body {
 
 // Header
 .headerBox {
-  position: relative;
-  min-width: 100vh;
-  min-height: 100vh;
-  // margin-top: 5em;
-  background-image: url(/f12m.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  .bg {
+    min-height: 100vh;
+    background-image: url(/f12m.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 31em;
+  }
 
   h1 {
     color: white;
     margin-left: 1em;
-    margin-top: 2em;
-    font-size: 4.5em;
+    margin-top: 5em;
+    font-size: 5em;
     // margin-bottom: 7em;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -73,16 +79,25 @@ body {
 }
 
 .hiring {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  padding: 4em 0 4em 0;
+
+  h1 {
+    margin-left: 3em;
+  }
 
   .video {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    // min-height: 70vh;
     overflow: hidden;
+  }
+
+  iframe {
+    position: relative;
+    width: 500px;
+    height: 250px;
   }
 
   p {
@@ -91,7 +106,7 @@ body {
     margin-bottom: 2em;
     a {
       text-transform: uppercase;
-      color: $senja;
+      color: #2e91f7;
       text-decoration: none;
       margin-left: 3px;
     }
@@ -101,7 +116,7 @@ body {
 // About
 .aboutBox2 {
   padding: 6em;
-  text-align: justify;
+  text-align: left;
 
   .betterDark {
     background-color: white;
@@ -109,18 +124,17 @@ body {
   }
 
   .title {
-    margin-left: -2em;
     font-size: 1.5em;
   }
 
   .content {
     font-size: 1.5em;
-    margin-right: -2em;
+    margin-left: -2em;
   }
 }
 
 .aboutBox {
-  text-align: justify;
+  text-align: left;
   padding: 6em;
   background: black;
   color: #fff;
@@ -131,7 +145,7 @@ body {
 
   .content {
     font-size: 1.5em;
-    margin-right: -2em;
+    margin-left: -2em;
   }
 
   .plsTengah {
@@ -204,8 +218,7 @@ body {
     align-items: flex-start;
     justify-content: space-around;
 
-    .img {
-      margin-top: -2em;
+    p {
     }
   }
   padding: 3em;
@@ -213,7 +226,7 @@ body {
 
 // Footer
 footer {
-  padding: 4em;
+  padding: 4em 6em 1em 6em;
   background: black;
   color: white;
 
@@ -225,76 +238,70 @@ footer {
     }
   }
 
-  h5 {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-  }
-
   a {
-    display: inline-flex;
     color: white;
     text-decoration: none;
     opacity: 0.6;
-    font-family: "Lato", sans-serif;
-    font-size: 1em;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     line-height: 1.2;
   }
 
-  .contact {
-    margin-top: -1.5em;
-    margin-bottom: 2em;
-    a {
-      color: white;
-      text-decoration: none;
-      opacity: 0.6;
-      font-family: "Lato", sans-serif;
-      font-size: 1em;
-      font-weight: 400;
-      letter-spacing: 4px;
-      line-height: 1.2;
-    }
-    a:hover {
-      color: white;
-      border-bottom: 1px solid white;
-    }
-    .phone {
-      letter-spacing: 0;
-    }
-  }
-
   .fRows {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 2em;
 
-    h4 {
-      font-size: 4em;
+    h1 {
+      font-size: 3em;
+      margin-left: -0.3em;
     }
   }
 
   .fRows2 {
+    display: flex;
+    justify-content: center;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+
+    h1 {
+      margin-bottom: 1.5em;
+    }
+
+    .contact {
+      margin-top: -1.5em;
+      a {
+        color: white;
+        text-decoration: none;
+        opacity: 0.6;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        line-height: 1.2;
+        margin-left: 0.2em;
+      }
+      a:hover {
+        color: white;
+        border-bottom: 1px solid white;
+      }
+    }
   }
 
   .fRows3 {
     border-top: 1px solid white;
+    margin-bottom: 1em;
     padding-top: 1em;
-    padding-bottom: 2em;
-    padding-left: -5px;
-    display: block;
-    justify-content: start;
-    align-items: start;
-    margin-bottom: 2em;
 
     li {
+      margin-top: 2em;
+      margin-left: -1.8em;
       display: inline;
-      margin-right: 3em;
     }
   }
-  .li:hover {
+
+  li:hover {
     color: white;
     border-bottom: 1px solid white;
   }
@@ -304,7 +311,7 @@ footer {
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 992px) {
   body {
     font-family: "Lato", sans-serif;
   }
@@ -312,24 +319,13 @@ footer {
   // Navbar
   .customNav {
     font-family: "Lato", sans-serif;
-    padding: 10px;
-    margin-bottom: 60px;
     color: white;
     text-transform: uppercase;
 
-    .nav-link {
-      color: white;
-      margin-left: 1em;
-    }
-
-    .nav-link:hover {
-      color: $senja;
-    }
-
     .navbar-brand {
-      margin-left: 10px;
       font-family: "Lobster", cursive;
-      font-size: 200%;
+      margin-top: -0.3em;
+      font-size: 5em;
       color: white;
       text-transform: none;
 
@@ -342,9 +338,9 @@ footer {
 
   // Header
   .headerBox {
-    min-height: 100vh;
-
-    Image {
+    .bg {
+      min-height: 100vh;
+      background-image: url(/f12m.png);
       background-color: rgba($color: #000000, $alpha: 0.7);
       background-size: cover;
       background-repeat: no-repeat;
@@ -354,10 +350,10 @@ footer {
       position: relative;
       z-index: 10;
       color: white;
-      margin-left: 2em;
-      margin-top: 5em;
+      margin-left: 1em;
+      margin-top: 3em;
       // margin-bottom: 5em;
-      font-size: 4em;
+      font-size: 5em;
       font-family: "Lato", sans-serif;
       font-weight: 700;
 
@@ -369,22 +365,32 @@ footer {
     }
   }
   .hiring {
-    .video {
-      position: relative;
-      display: flex;
-      justify-content: center;
+    margin-top: 6em;
+    margin-bottom: 3em;
+    margin-left: 4.5em;
+
+    .flex {
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      margin-left: -0.01em;
+    }
+
+    iframe {
+      width: 1000px;
+      position: relative;
+      height: 500px;
+    }
+
+    .video {
+      margin-left: -4.5em;
     }
 
     p {
-      display: flex;
-      justify-content: center;
-      a {
-        text-transform: uppercase;
-        color: $senja;
-        text-decoration: none;
-        margin-left: 3px;
-      }
+      margin-top: 2em;
     }
   }
 
@@ -400,7 +406,8 @@ footer {
     }
 
     p {
-      font-size: small;
+      font-size: 1em;
+      margin-left: 1em;
     }
 
     .content {
@@ -476,26 +483,38 @@ footer {
       margin-left: 0;
     }
 
+    p {
+      margin-left: 1em;
+      font-size: 1em;
+    }
+
     .content {
       font-size: 1em;
-      margin-right: 0;
+    }
+
+    b {
+      margin-left: 1em;
     }
   }
 
   // Marquee
   .marqueeRoot {
-    padding: 6em;
+    padding: 4em 6em 4em 6em;
 
     .content {
       display: flex;
-      align-items: center;
-      justify-content: space-around;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    img {
+      position: relative;
     }
   }
 
   // Footer
   footer {
-    padding: 4em;
+    padding: 5em 5em 5em 5em;
     background: black;
     color: white;
 
@@ -507,75 +526,63 @@ footer {
       }
     }
 
-    h5 {
-      margin-top: 1.5em;
-      margin-bottom: 1.5em;
-    }
-
     a {
       color: white;
       text-decoration: none;
       opacity: 0.6;
-      font-family: "Lato", sans-serif;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       line-height: 1.2;
     }
 
-    .contact {
-      margin-top: -1.5em;
-      margin-bottom: 2em;
-      a {
-        color: white;
-        text-decoration: none;
-        opacity: 0.6;
-        font-family: "Lato", sans-serif;
-        font-size: 13px;
-        font-weight: 400;
-        letter-spacing: 4px;
-        line-height: 1.2;
-      }
-      a:hover {
-        color: white;
-        border-bottom: 1px solid white;
-      }
-      .phone {
-        letter-spacing: 0;
-      }
-    }
-
     .fRows {
       display: flex;
       align-items: center;
+      justify-content: center;
       margin-bottom: 2em;
-
-      h4 {
-        font-size: 3em;
-      }
     }
 
     .fRows2 {
+      display: flex;
+      justify-content: center;
       margin-top: 2em;
       margin-bottom: 2em;
+
+      h1 {
+        margin-bottom: 1em;
+        margin-left: 0.4em;
+        font-size: 2em;
+      }
+
+      .contact {
+        margin-top: -1.5em;
+        a {
+          color: white;
+          text-decoration: none;
+          opacity: 0.6;
+          font-size: 13px;
+          font-weight: 400;
+          letter-spacing: 4px;
+          line-height: 1.2;
+          margin-left: 1.1em;
+        }
+        a:hover {
+          color: white;
+          border-bottom: 1px solid white;
+        }
+      }
     }
 
     .fRows3 {
       border-top: 1px solid white;
-      padding-top: 1em;
-      padding-bottom: 2em;
-      padding-left: -5px;
-      display: block;
-      justify-content: start;
-      align-items: start;
-      margin-bottom: 2em;
 
       li {
-        display: inline;
-        margin-right: 3em;
+        margin-left: -1em;
       }
     }
-    .li:hover {
+
+    li:hover {
       color: white;
       border-bottom: 1px solid white;
     }
@@ -583,13 +590,32 @@ footer {
     h4 {
       font-size: 4em;
     }
+
+    .cr {
+      margin-bottom: 1em;
+    }
   }
 }
 
 @media (min-width: 1920px) {
   .headerBox {
     h1 {
-      margin-top: 5;
+      margin-left: -2em;
+      margin-top: 4em;
     }
+  }
+
+  .hiring {
+    h1 {
+      margin-left: -0.9em;
+    }
+
+    p {
+      margin-top: 1.5em;
+    }
+  }
+
+  .aboutBox {
+    font-size: 1em;
   }
 }
